@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	../LinearRegression.py	/^A = np.dot(Xbar.T, Xbar)$/;"	kind:variable	line:13
+LinearRegression.py	../LinearRegression.py	1;"	kind:file	line:1
+X	../LinearRegression.py	/^X = np.array([[147, 150, 153, 158, 163, 165, 168, 170, 173, 175, 178, 180, 183]]).T$/;"	kind:variable	line:5
+Xbar	../LinearRegression.py	/^Xbar = np.concatenate((one, X), axis = 1)$/;"	kind:variable	line:10
+b	../LinearRegression.py	/^b = np.dot(Xbar.T, y)$/;"	kind:variable	line:14
+one	../LinearRegression.py	/^one = np.ones((X.shape[0], 1))$/;"	kind:variable	line:9
+w	../LinearRegression.py	/^w = np.dot(np.linalg.pinv(A), b)$/;"	kind:variable	line:15
+w_0	../LinearRegression.py	/^w_0 = w[0][0]$/;"	kind:variable	line:18
+w_1	../LinearRegression.py	/^w_1 = w[1][0]$/;"	kind:variable	line:19
+x0	../LinearRegression.py	/^x0 = np.linspace(145, 185, 2)$/;"	kind:variable	line:20
+y	../LinearRegression.py	/^y = np.array([[ 49, 50, 51,  54, 58, 59, 60, 62, 63, 64, 66, 67, 68]]).T$/;"	kind:variable	line:6
+y0	../LinearRegression.py	/^y0 = w_0 + w_1*x0$/;"	kind:variable	line:21
