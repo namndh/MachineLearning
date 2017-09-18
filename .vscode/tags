@@ -4,22 +4,25 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-1.py	../example/1.py	1;"	kind:file	line:1
-A	../Week1/LinearRegression.py	/^A = np.dot(Xbar.T, Xbar)$/;"	kind:variable	line:13
-LinearRegression.py	../Week1/LinearRegression.py	1;"	kind:file	line:1
-X	../Week1/LinearRegression.py	/^X = np.array([[147, 150, 153, 158, 163, 165, 168, 170, 173, 175, 178, 180, 183]]).T$/;"	kind:variable	line:5
-Xbar	../Week1/LinearRegression.py	/^Xbar = np.concatenate((one, X), axis = 1)$/;"	kind:variable	line:11
-b	../Week1/LinearRegression.py	/^b = np.dot(Xbar.T, y)$/;"	kind:variable	line:14
-m1	../example/1.py	/^m1 = np.matrix("4 3;6 9")$/;"	kind:variable	line:2
-m2	../example/1.py	/^m2 = np.matrix("-2 9;-5 2")$/;"	kind:variable	line:3
-m3	../example/1.py	/^m3 = np.matrix("5;5;2;7")$/;"	kind:variable	line:5
-m4	../example/1.py	/^m4 = np.matrix("4;-4;-3")$/;"	kind:variable	line:9
-m5	../example/1.py	/^m5 = np.matrix("4;2;4")$/;"	kind:variable	line:10
-one	../Week1/LinearRegression.py	/^one = np.ones((X.shape[0], 1))$/;"	kind:variable	line:9
-u	../example/1.py	/^u = np.matrix("8;1;4")$/;"	kind:variable	line:7
-w	../Week1/LinearRegression.py	/^w = np.dot(np.linalg.pinv(A), b)$/;"	kind:variable	line:15
-w_0	../Week1/LinearRegression.py	/^w_0 = w[0][0]$/;"	kind:variable	line:18
-w_1	../Week1/LinearRegression.py	/^w_1 = w[1][0]$/;"	kind:variable	line:19
-x0	../Week1/LinearRegression.py	/^x0 = np.linspace(145, 185, 2)$/;"	kind:variable	line:20
-y	../Week1/LinearRegression.py	/^y = np.array([[ 49, 50, 51,  54, 58, 59, 60, 62, 63, 64, 66, 67, 68]]).T$/;"	kind:variable	line:6
-y0	../Week1/LinearRegression.py	/^y0 = w_0 + w_1*x0$/;"	kind:variable	line:21
+A	../Week1/NormalEquation.py	/^A = np.dot(Xbar.T, Xbar)$/;"	kind:variable	line:12
+GradientDescend.py	../Week1/GradientDescend.py	1;"	kind:file	line:1
+LogisticRegression.py	../Week3/LogisticRegression.py	1;"	kind:file	line:1
+NormalEquation.py	../Week1/NormalEquation.py	1;"	kind:file	line:1
+X	../Week1/NormalEquation.py	/^X = np.array([[1,2,4,0]]).T$/;"	kind:variable	line:6
+Xbar	../Week1/NormalEquation.py	/^Xbar = np.concatenate((one, X), axis = 1)$/;"	kind:variable	line:10
+b	../Week1/NormalEquation.py	/^b = np.dot(Xbar.T, y)$/;"	kind:variable	line:13
+columns	../Week2/machine-learning-ex1/ex1/plotData.py	/^columns = defaultdict(list)$/;"	kind:variable	line:5
+matrix	../Week2/plotData.py	/^matrix = np.loadtxt('data.txt')$/;"	kind:variable	line:4
+one	../Week1/NormalEquation.py	/^one = np.ones((X.shape[0], 1))$/;"	kind:variable	line:9
+plotData.py	../Week2/machine-learning-ex1/ex1/plotData.py	1;"	kind:file	line:1
+plotData.py	../Week2/plotData.py	1;"	kind:file	line:1
+reader	../Week2/machine-learning-ex1/ex1/plotData.py	/^    reader = csv./;"	kind:variable	line:8
+regr	../Week1/NormalEquation.py	/^regr = linear_model.LinearRegression(fit_intercept=False) # fit_intercept = False for calculating the bias$/;"	kind:variable	line:16
+w	../Week1/NormalEquation.py	/^w = np.dot(np.linalg.pinv(A), b)$/;"	kind:variable	line:14
+w_0	../Week1/NormalEquation.py	/^w_0 = w[0][0]$/;"	kind:variable	line:23
+w_1	../Week1/NormalEquation.py	/^w_1 = w[1][0]$/;"	kind:variable	line:24
+x	../Week2/plotData.py	/^x = matrix[:,0]$/;"	kind:variable	line:6
+x0	../Week1/NormalEquation.py	/^x0 = np.linspace(0, 6, 5)$/;"	kind:variable	line:25
+y	../Week1/NormalEquation.py	/^y = np.array([[0.5,1,2,0]]).T$/;"	kind:variable	line:7
+y	../Week2/plotData.py	/^y = matrix[:,1]$/;"	kind:variable	line:7
+y0	../Week1/NormalEquation.py	/^y0 = w_0 + w_1*x0$/;"	kind:variable	line:26
