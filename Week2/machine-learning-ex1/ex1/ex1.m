@@ -40,6 +40,7 @@ pause;
 fprintf('Plotting Data ...\n')
 data = load('ex1data1.txt');
 X = data(:, 1); y = data(:, 2);
+disp(X(1,:));
 m = length(y); % number of training examples
 
 % Plot Data
@@ -72,7 +73,7 @@ fprintf('Expected cost value (approx) 54.24\n');
 fprintf('Program paused. Press enter to continue.\n');
 pause;
 
-fprintf('\nRunning Gradient Descent ...\n')
+fprintf('\nRunning Gradient Descent ...\n');
 % run gradient descent
 theta = gradientDescent(X, y, theta, alpha, iterations);
 
@@ -84,9 +85,9 @@ fprintf(' -3.6303\n  1.1664\n\n');
 
 % Plot the linear fit
 hold on; % keep previous plot visible
-plot(X(:,2), X*theta, '-')
-legend('Training data', 'Linear regression')
-hold off % don't overlay any more plots on this figure
+plot(X(:,2), X*theta, '-');
+legend('Training data', 'Linear regression');
+hold off; % don't overlay any more plots on this figure
 
 % Predict values for population sizes of 35,000 and 70,000
 predict1 = [1, 3.5] *theta;
@@ -128,6 +129,8 @@ xlabel('\theta_0'); ylabel('\theta_1');
 
 % Contour plot
 figure;
+disp(theta0_vals);
+disp(theta1_vals);
 % Plot J_vals as 15 contours spaced logarithmically between 0.01 and 100
 contour(theta0_vals, theta1_vals, J_vals, logspace(-2, 3, 20))
 xlabel('\theta_0'); ylabel('\theta_1');
